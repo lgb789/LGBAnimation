@@ -75,7 +75,7 @@
 		B8C8A49720245CE100420A37 /* AnimationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableViewCell.m; sourceTree = "<group>"; };
 		C18F3C92A1D934F3572B9E09 /* Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-pod-LGBAAnimation_Tests/Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D570A3C2A4FC77A937E53A38 /* Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-pod-LGBAAnimation_Example/Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E88256C70202F08A5A15B99F /* iOS-pod-LGBAAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "iOS-pod-LGBAAnimation.podspec"; path = "../iOS-pod-LGBAAnimation.podspec"; sourceTree = "<group>"; };
+		E88256C70202F08A5A15B99F /* LGBAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGBAnimation.podspec; path = ../LGBAnimation.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				E88256C70202F08A5A15B99F /* iOS-pod-LGBAAnimation.podspec */,
+				E88256C70202F08A5A15B99F /* LGBAnimation.podspec */,
 				7ADF631283E3091E7DB712B4 /* README.md */,
 				72CDD6E5197F0C22C8CB817E /* LICENSE */,
 			);

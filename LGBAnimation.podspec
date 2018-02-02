@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LGBAAnimation'
-  s.version          = '0.1.0'
+  s.name             = 'LGBAnimation'
+  s.version          = '0.1.1'
   s.summary          = 'UIView animations.'
 
 # This description is used to generate tags and improve search results.
