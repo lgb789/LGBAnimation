@@ -1,0 +1,16 @@
+PODS:
+  - iOS-pod-LGBAAnimation (0.1.0)
+
+DEPENDENCIES:
+  - iOS-pod-LGBAAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  iOS-pod-LGBAAnimation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iOS-pod-LGBAAnimation: a09e3e4d5b6f8825d25803b23dd1a85bbe6cb78b
+
+PODFILE CHECKSUM: dfb848fc53565f33df2cd78acddd82cc9bd5c99e
+
+COCOAPODS: 1.2.1

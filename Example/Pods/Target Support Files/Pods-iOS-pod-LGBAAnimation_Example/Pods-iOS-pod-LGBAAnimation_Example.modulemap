@@ -1,0 +1,6 @@
+framework module Pods_iOS_pod_LGBAAnimation_Example {
+  umbrella header "Pods-iOS-pod-LGBAAnimation_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

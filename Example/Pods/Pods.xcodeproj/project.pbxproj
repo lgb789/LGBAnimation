@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FA2FA05B7B798C6ED70932B4D856E9 /* LGBAnimationFadeInUp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B41B034A010D5CF2EA250FE117FED4A /* LGBAnimationFadeInUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077CB24068945597600484091492CE32 /* LGBAnimationPopAlphaOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E4FC77804DCBB774C80B00749D1CA /* LGBAnimationPopAlphaOut.m */; };
+		07CA73E35BD30490D53BC1A5B1F0DB87 /* LGBAnimationZoomIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D3C9A45D90296BCA0F2A2601BEED3F /* LGBAnimationZoomIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7D3F3F043F2FB15B0284030B7661D6 /* LGBAnimationSlideDownReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 259B9312B01B4354CC39FDB4A7C5AA8B /* LGBAnimationSlideDownReverse.m */; };
+		20A310048B8E0005FF731343B0B8C3DB /* iOS-pod-LGBAAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944630282B8CBF9C62F75FE0260609A /* iOS-pod-LGBAAnimation-dummy.m */; };
+		22C0F8CB9FE5B7D17F244D334FED6C6C /* LGBAnimationBounceDown.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D3087F91185CA0BA0410581289E6A /* LGBAnimationBounceDown.m */; };
+		28EDB5CBDD05856E9CAA71271550F2CF /* LGBAnimationSlideDown.h in Headers */ = {isa = PBXBuildFile; fileRef = E026C67B5749AEC8147CD97FC40E6F73 /* LGBAnimationSlideDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		368E45B5DE5B834EB35E35F8F97ECD62 /* Pods-iOS-pod-LGBAAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4DA8B46BEAFBF9F84B0FD0366DF8A8 /* Pods-iOS-pod-LGBAAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B5DBA073AD92B27A00CB00E4AD189A /* LGBAnimationFadeOutLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF5A121AF70DDB88B6317CAAC7EE086 /* LGBAnimationFadeOutLeft.m */; };
+		39E354613F59C117F9E7C759285CFB14 /* LGBAnimationFadeOutRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB33E8FBB74E9C1FD2AAA6BE7028C34 /* LGBAnimationFadeOutRight.m */; };
+		421DF503AC9741247CD5974677DAB984 /* Pods-iOS-pod-LGBAAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 005129E84BE9049406091F021CBA8771 /* Pods-iOS-pod-LGBAAnimation_Tests-dummy.m */; };
+		440024A14C6F12CA429FB21F58B350EC /* LGBAnimationBounceLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372A026A4C1347BBE4E6DD4A224188C /* LGBAnimationBounceLeft.m */; };
+		44F8A26BF0D508B4BE72DE5C676BBB40 /* Pods-iOS-pod-LGBAAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4831EA9A64D07B8EAC27113714C4B1D /* Pods-iOS-pod-LGBAAnimation_Example-dummy.m */; };
+		54AA9FBFABE2C714B8C8698DB1A9A315 /* LGBAnimationBounceRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BC6C22CA3951D061EBD66D9B3CB62 /* LGBAnimationBounceRight.m */; };
+		56F84B9DC1FF90B8ED4AE0E846634E22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		58C13959D6A80C383BFDA6AE00CB0895 /* LGBAnimationBounceUp.h in Headers */ = {isa = PBXBuildFile; fileRef = 663A4061CD6A00C3ADD842BF7C1F315B /* LGBAnimationBounceUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		598462B5A6266346060A63DD593A4CDF /* UIView+LGBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8289B390DF6E7EEC2292B64AC94787 /* UIView+LGBAnimation.m */; };
+		62CF626E456B35B17A36548018232CDB /* LGBAnimationPop.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE90AF7E417248D36A4B3193933350F /* LGBAnimationPop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6370F5A8FEB8D19A9D655035F02E1EA0 /* LGBAnimationShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 9278BBDA18C5F937ACBEE3CE062A410A /* LGBAnimationShake.m */; };
+		6DC4D1DD986539AFD86F6349FF31C2F8 /* LGBAnimationFadeIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 8216F5E32E2E9CC77A58FBED8EBF8E35 /* LGBAnimationFadeIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DFBAB7B11D5B163925ADDAF2CFBB59C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		71A987648181370B330C20C3308D6C9E /* LGBAnimationSlideUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B13B4CCCA76826F698DE92BA7C230D11 /* LGBAnimationSlideUp.m */; };
+		7709AFBAEAE4C937C60DA50AA7746C45 /* LGBAnimationBounceRight.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FDEA2FA932C202C0F5DF2E6057229C /* LGBAnimationBounceRight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7829D226645D369216688F9552D550D8 /* LGBAnimationPopAlphaUp.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BFD1AE00FCB9B83D849EF24D4509C8 /* LGBAnimationPopAlphaUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C862EDF4836B2B22B570AC85F3BF751 /* LGBAnimationZoomIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C8606968808C4077876059591CB88 /* LGBAnimationZoomIn.m */; };
+		7D12323B5425EBFBDE07DC8821F53C0B /* LGBAnimationFadeIn.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9CF502077528EE7C1C74B8453FF63 /* LGBAnimationFadeIn.m */; };
+		7E75763778AC2FE1BB28EAC15631B9A0 /* LGBAnimationSlideDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BEB0588B406ADC51A95CF5E0134E2E /* LGBAnimationSlideDown.m */; };
+		862B39A19B38701EDC7ED7DB138F1598 /* UIView+LGBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D07FB15B200273FEAC8706F1FAA41044 /* UIView+LGBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D40EC8A90A2C87C4E2E77028E3D92E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		931A510C77FFB4866D820CE120333EC5 /* LGBAnimationSlideRight.h in Headers */ = {isa = PBXBuildFile; fileRef = 707886AB0622AA12E396A1B8D95FFE38 /* LGBAnimationSlideRight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		932ADCCF603E186741EF0537FF9A54D8 /* LGBAnimationFadeOut.m in Sources */ = {isa = PBXBuildFile; fileRef = BC26B04833E8DB51164FAA8F47790814 /* LGBAnimationFadeOut.m */; };
+		97B95DF4267D06985DD67D528629CB7F /* LGBAnimationFadeInRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A94C110A63509A5AF1B2873B89AE81 /* LGBAnimationFadeInRight.m */; };
+		99DFCAC5A121EA092CAEC9FEA9472E89 /* iOS-pod-LGBAAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FA4F4886907083EB012D2BAE14B59E /* iOS-pod-LGBAAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A3B3E210A810AEEE7807CF602EDDBE1 /* LGBAnimationFadeInUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D121A5D992F5DF85E5B1AA91ADF8D /* LGBAnimationFadeInUp.m */; };
+		9C1283D7DEF07B2AAAC47559CDE84912 /* LGBAnimationSlideLeft.h in Headers */ = {isa = PBXBuildFile; fileRef = D436B01B92006820447D445865356D0B /* LGBAnimationSlideLeft.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A046A4E7728155D067CCE51C6BF2C451 /* LGBAnimationSlideLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C47CD067C7CDF4E64A45ABAB4C060 /* LGBAnimationSlideLeft.m */; };
+		A0CD3FCCF8F93159439F26B79AACDFB0 /* LGBAnimationZoomOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CAF7DF464351D8F59D2ABF257F5671 /* LGBAnimationZoomOut.m */; };
+		A2CCD2C085D22EE127E210EE5D3FCF18 /* LGBAnimationMorph.m in Sources */ = {isa = PBXBuildFile; fileRef = B40FCF523B8454A477430E67F4681A70 /* LGBAnimationMorph.m */; };
+		A41D0AB94406C5CAFD7D9FDFF9FED9F1 /* LGBAnimationFadeInRight.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E55C360718DAA31D4FDE2CB2550BF58 /* LGBAnimationFadeInRight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7EB47AA7C3784DE14AB0E4D8E411684 /* LGBAnimationPopAlphaUp.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC9172A0F3EF2C1419223D6CC0AD4BA /* LGBAnimationPopAlphaUp.m */; };
+		ADA64B5E67B431309A11C712CDD6791A /* LGBAnimationFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF344646D690C0F3C82B5EBE89276FD /* LGBAnimationFlash.m */; };
+		B609E73F3EF24C0263BCBC5BA8BF218E /* LGBAnimationMorph.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D9BEF0972914F2FD4202CBB8A38515 /* LGBAnimationMorph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7050BA02395F7BE0BCB1D3B680E0498 /* LGBAnimationBounceLeft.h in Headers */ = {isa = PBXBuildFile; fileRef = B98F9309C61A78994EBE93634DC7B753 /* LGBAnimationBounceLeft.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B709A8DCD46934C0E3AB17CB0AD576B8 /* LGBAnimationPopAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 350C1E75DA18BDB38E063255C696B398 /* LGBAnimationPopAlpha.m */; };
+		B77A879941B06B4AF6C766B49D6EBA4E /* LGBAnimationFadeInLeft.h in Headers */ = {isa = PBXBuildFile; fileRef = C152B8D47FFABF6EA17FE75D97986CF9 /* LGBAnimationFadeInLeft.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D04DAE05CB18F9C289BAA157C62237 /* LGBAnimationFadeInDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACB9779DDE864CB25AAD010DE02E1D /* LGBAnimationFadeInDown.m */; };
+		BC5D9517538059E52A8972E82F9B243E /* LGBAnimationShake.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CC685D4D1435FD42FD36050159AB5E /* LGBAnimationShake.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC22DC207E8858644297C1D4010AB47 /* LGBAnimationPopAlphaOut.h in Headers */ = {isa = PBXBuildFile; fileRef = BAFBAF912BC954B6FD903033CC9CC3A1 /* LGBAnimationPopAlphaOut.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFE88EC04066785C66D22801BDFA977A /* LGBAnimationPop.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4F317C75D44D0B9BC31EA18921503F /* LGBAnimationPop.m */; };
+		C089F8403ADE28E286687CED75D890C6 /* LGBAnimationFadeInLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21803756BACF6377F3C4A0A7CA2DC0 /* LGBAnimationFadeInLeft.m */; };
+		C324340B3BE87157FE04255F1BF5377A /* LGBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1CD59C4490E6141E210A556829E61B /* LGBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3CCE4D021093D78982480D4A19E563A /* LGBAnimationSlideDownReverse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE05218924DD62506630992DC15E041 /* LGBAnimationSlideDownReverse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C499507F958A239DB5431F1485332A78 /* LGBAnimationFadeOutRight.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F2BFCF5080932CDC69E2DAED25437A /* LGBAnimationFadeOutRight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49C6B8609D133B5BF9C8C78FB4FA820 /* LGBAnimationSlideUp.h in Headers */ = {isa = PBXBuildFile; fileRef = 40172849C6BF748C64E1B251FE50F198 /* LGBAnimationSlideUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D31CE46B0F613AD669A86927F50AF538 /* LGBAnimationPopAlpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 9154F77EF133B97B3145B86063A750A5 /* LGBAnimationPopAlpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC04DA56AA4D60A13D41723E8F7D12F8 /* LGBAnimationFadeInDown.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DFBED6B7D7BA39114F5B98C5AE4DCA /* LGBAnimationFadeInDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD8070455EBDB6CAC91AC50CF808331A /* LGBAnimationSlideRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8083002DD4E63EC2F2079B0C34259E /* LGBAnimationSlideRight.m */; };
+		E12C526A13460154AC3BEBAA2F3B0090 /* LGBAnimationBounceUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F997995444F1E6C710133D9B1C1FF998 /* LGBAnimationBounceUp.m */; };
+		E97203BF2F38B4ABA3B5384F4D95AE7D /* Pods-iOS-pod-LGBAAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8565B330E0F6F81BEC7C148B38BC64 /* Pods-iOS-pod-LGBAAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFFA5130B374DE2237023C96C0781136 /* LGBAnimationFlash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDD4CD5CD778B7DF6A04FE2E185AEC1 /* LGBAnimationFlash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0B180F15AB7D5ADF4A14450F99A2040 /* LGBAnimationFadeOut.h in Headers */ = {isa = PBXBuildFile; fileRef = 1821ACD0F75E8C8ABC96D30C90ED2494 /* LGBAnimationFadeOut.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2CA65710A2DA85C7A84FA73F9079F61 /* LGBAnimationZoomOut.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4F4AC42E4134EAC7BE3EAB66333869 /* LGBAnimationZoomOut.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F64DDD87A6C60370E2C288102D303883 /* LGBAnimationBounceDown.h in Headers */ = {isa = PBXBuildFile; fileRef = D12DF0764D3DA7DC67C744CF21FA975E /* LGBAnimationBounceDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F97C38E41C47F1FF62F50A0A0F87B366 /* LGBAnimationFadeOutLeft.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C98D78476695A3269FD3F4AC63F9FD /* LGBAnimationFadeOutLeft.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECAC255FC386FF4F532B3CFC87FE3E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06AA677A29F8080CE37E664D00CFF369;
+			remoteInfo = "iOS-pod-LGBAAnimation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005129E84BE9049406091F021CBA8771 /* Pods-iOS-pod-LGBAAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-pod-LGBAAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		006465B37662AA9CA1E77B4FAB94619F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FDEA2FA932C202C0F5DF2E6057229C /* LGBAnimationBounceRight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationBounceRight.h; sourceTree = "<group>"; };
+		04797B84B356ECFAE2A00E18CDEF0E05 /* Pods-iOS-pod-LGBAAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-pod-LGBAAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		09A94C110A63509A5AF1B2873B89AE81 /* LGBAnimationFadeInRight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationFadeInRight.m; sourceTree = "<group>"; };
+		0DF5A121AF70DDB88B6317CAAC7EE086 /* LGBAnimationFadeOutLeft.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationFadeOutLeft.m; sourceTree = "<group>"; };
+		1372A026A4C1347BBE4E6DD4A224188C /* LGBAnimationBounceLeft.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationBounceLeft.m; sourceTree = "<group>"; };
+		1821ACD0F75E8C8ABC96D30C90ED2494 /* LGBAnimationFadeOut.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationFadeOut.h; sourceTree = "<group>"; };
+		183E4FC77804DCBB774C80B00749D1CA /* LGBAnimationPopAlphaOut.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationPopAlphaOut.m; sourceTree = "<group>"; };
+		1CE05218924DD62506630992DC15E041 /* LGBAnimationSlideDownReverse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationSlideDownReverse.h; sourceTree = "<group>"; };
+		259B9312B01B4354CC39FDB4A7C5AA8B /* LGBAnimationSlideDownReverse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationSlideDownReverse.m; sourceTree = "<group>"; };
+		27BEB0588B406ADC51A95CF5E0134E2E /* LGBAnimationSlideDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationSlideDown.m; sourceTree = "<group>"; };
+		2C3C8606968808C4077876059591CB88 /* LGBAnimationZoomIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationZoomIn.m; sourceTree = "<group>"; };
+		2F21803756BACF6377F3C4A0A7CA2DC0 /* LGBAnimationFadeInLeft.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationFadeInLeft.m; sourceTree = "<group>"; };
+		350C1E75DA18BDB38E063255C696B398 /* LGBAnimationPopAlpha.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationPopAlpha.m; sourceTree = "<group>"; };
+		3B8083002DD4E63EC2F2079B0C34259E /* LGBAnimationSlideRight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationSlideRight.m; sourceTree = "<group>"; };
+		3D8D121A5D992F5DF85E5B1AA91ADF8D /* LGBAnimationFadeInUp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationFadeInUp.m; sourceTree = "<group>"; };
+		40172849C6BF748C64E1B251FE50F198 /* LGBAnimationSlideUp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationSlideUp.h; sourceTree = "<group>"; };
+		49586E91E273CA0ACB2F71CB6FC1AAA2 /* Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4AACB9779DDE864CB25AAD010DE02E1D /* LGBAnimationFadeInDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationFadeInDown.m; sourceTree = "<group>"; };
+		548BC6C22CA3951D061EBD66D9B3CB62 /* LGBAnimationBounceRight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationBounceRight.m; sourceTree = "<group>"; };
+		55D54375D47633CBA9CF06B464A4FF8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CDA15F09DC39DFE1C4AE09BA8D1F8A /* iOS_pod_LGBAAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOS_pod_LGBAAnimation.framework; path = "iOS-pod-LGBAAnimation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDD4CD5CD778B7DF6A04FE2E185AEC1 /* LGBAnimationFlash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationFlash.h; sourceTree = "<group>"; };
+		6085C2CB4B3D3E0955865A7A3F6EB072 /* Pods-iOS-pod-LGBAAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-pod-LGBAAnimation_Example-resources.sh"; sourceTree = "<group>"; };
+		62E95ABC3B1D1FAB7F527D1C8447E078 /* Pods-iOS-pod-LGBAAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-pod-LGBAAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65BFD1AE00FCB9B83D849EF24D4509C8 /* LGBAnimationPopAlphaUp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationPopAlphaUp.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		663A4061CD6A00C3ADD842BF7C1F315B /* LGBAnimationBounceUp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationBounceUp.h; sourceTree = "<group>"; };
+		66CAF7DF464351D8F59D2ABF257F5671 /* LGBAnimationZoomOut.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationZoomOut.m; sourceTree = "<group>"; };
+		690881F0FB6231A1E55576802C806B5F /* Pods-iOS-pod-LGBAAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-pod-LGBAAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
+		69CC685D4D1435FD42FD36050159AB5E /* LGBAnimationShake.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationShake.h; sourceTree = "<group>"; };
+		6E309711A9665D996C529B151884107F /* Pods_iOS_pod_LGBAAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_pod_LGBAAnimation_Example.framework; path = "Pods-iOS-pod-LGBAAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0E6F340BC03FCE24B202CDE785FC46 /* Pods-iOS-pod-LGBAAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-pod-LGBAAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		707886AB0622AA12E396A1B8D95FFE38 /* LGBAnimationSlideRight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationSlideRight.h; sourceTree = "<group>"; };
+		768BD245D9DC4902A5714303C9218F95 /* Pods_iOS_pod_LGBAAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_pod_LGBAAnimation_Tests.framework; path = "Pods-iOS-pod-LGBAAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D3C9A45D90296BCA0F2A2601BEED3F /* LGBAnimationZoomIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationZoomIn.h; sourceTree = "<group>"; };
+		79D82EAA465DF01442B80241AD5A58B3 /* Pods-iOS-pod-LGBAAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOS-pod-LGBAAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		7AD1F368C102A2F60E9D1863990A5D61 /* Pods-iOS-pod-LGBAAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOS-pod-LGBAAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		7F50BCFCE79C1043F2C3F9A50F36E975 /* iOS-pod-LGBAAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "iOS-pod-LGBAAnimation.modulemap"; sourceTree = "<group>"; };
+		8216F5E32E2E9CC77A58FBED8EBF8E35 /* LGBAnimationFadeIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationFadeIn.h; sourceTree = "<group>"; };
+		85C98D78476695A3269FD3F4AC63F9FD /* LGBAnimationFadeOutLeft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationFadeOutLeft.h; sourceTree = "<group>"; };
+		87DE83A247B0ADEB109F41F91E1E6C9F /* Pods-iOS-pod-LGBAAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-pod-LGBAAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8944630282B8CBF9C62F75FE0260609A /* iOS-pod-LGBAAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-pod-LGBAAnimation-dummy.m"; sourceTree = "<group>"; };
+		8B4F4AC42E4134EAC7BE3EAB66333869 /* LGBAnimationZoomOut.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationZoomOut.h; sourceTree = "<group>"; };
+		8E55C360718DAA31D4FDE2CB2550BF58 /* LGBAnimationFadeInRight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationFadeInRight.h; sourceTree = "<group>"; };
+		9154F77EF133B97B3145B86063A750A5 /* LGBAnimationPopAlpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationPopAlpha.h; sourceTree = "<group>"; };
+		917F4FDAA62A1DD7B3F0DFECD744DB0B /* Pods-iOS-pod-LGBAAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-pod-LGBAAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9278BBDA18C5F937ACBEE3CE062A410A /* LGBAnimationShake.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationShake.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FA4F4886907083EB012D2BAE14B59E /* iOS-pod-LGBAAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-pod-LGBAAnimation-umbrella.h"; sourceTree = "<group>"; };
+		957BF85505A8D1ED5AD7FA0460C849B1 /* Pods-iOS-pod-LGBAAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-pod-LGBAAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B41B034A010D5CF2EA250FE117FED4A /* LGBAnimationFadeInUp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationFadeInUp.h; sourceTree = "<group>"; };
+		9BDCE8E4AB491781637979D25B248E70 /* iOS-pod-LGBAAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-pod-LGBAAnimation-prefix.pch"; sourceTree = "<group>"; };
+		9EB33E8FBB74E9C1FD2AAA6BE7028C34 /* LGBAnimationFadeOutRight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationFadeOutRight.m; sourceTree = "<group>"; };
+		B13B4CCCA76826F698DE92BA7C230D11 /* LGBAnimationSlideUp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationSlideUp.m; sourceTree = "<group>"; };
+		B40FCF523B8454A477430E67F4681A70 /* LGBAnimationMorph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationMorph.m; sourceTree = "<group>"; };
+		B4831EA9A64D07B8EAC27113714C4B1D /* Pods-iOS-pod-LGBAAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-pod-LGBAAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		B4D9CF502077528EE7C1C74B8453FF63 /* LGBAnimationFadeIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationFadeIn.m; sourceTree = "<group>"; };
+		B4F2BFCF5080932CDC69E2DAED25437A /* LGBAnimationFadeOutRight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationFadeOutRight.h; sourceTree = "<group>"; };
+		B8D8AFD1ECDF5C2361169665AB6890AA /* Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B98F9309C61A78994EBE93634DC7B753 /* LGBAnimationBounceLeft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationBounceLeft.h; sourceTree = "<group>"; };
+		BAFBAF912BC954B6FD903033CC9CC3A1 /* LGBAnimationPopAlphaOut.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationPopAlphaOut.h; sourceTree = "<group>"; };
+		BC26B04833E8DB51164FAA8F47790814 /* LGBAnimationFadeOut.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationFadeOut.m; sourceTree = "<group>"; };
+		BF6D3087F91185CA0BA0410581289E6A /* LGBAnimationBounceDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationBounceDown.m; sourceTree = "<group>"; };
+		C152B8D47FFABF6EA17FE75D97986CF9 /* LGBAnimationFadeInLeft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationFadeInLeft.h; sourceTree = "<group>"; };
+		C1D9BEF0972914F2FD4202CBB8A38515 /* LGBAnimationMorph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationMorph.h; sourceTree = "<group>"; };
+		CC8289B390DF6E7EEC2292B64AC94787 /* UIView+LGBAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGBAnimation.m"; sourceTree = "<group>"; };
+		CCF344646D690C0F3C82B5EBE89276FD /* LGBAnimationFlash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationFlash.m; sourceTree = "<group>"; };
+		D07FB15B200273FEAC8706F1FAA41044 /* UIView+LGBAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LGBAnimation.h"; sourceTree = "<group>"; };
+		D12DF0764D3DA7DC67C744CF21FA975E /* LGBAnimationBounceDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationBounceDown.h; sourceTree = "<group>"; };
+		D1FCC8C1DD7521360D614F1422B220FF /* iOS-pod-LGBAAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-pod-LGBAAnimation.xcconfig"; sourceTree = "<group>"; };
+		D436B01B92006820447D445865356D0B /* LGBAnimationSlideLeft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationSlideLeft.h; sourceTree = "<group>"; };
+		D5948985AB047895CFCAB31FD4CFCC8E /* Pods-iOS-pod-LGBAAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-pod-LGBAAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D6DFBED6B7D7BA39114F5B98C5AE4DCA /* LGBAnimationFadeInDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationFadeInDown.h; sourceTree = "<group>"; };
+		D92C47CD067C7CDF4E64A45ABAB4C060 /* LGBAnimationSlideLeft.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationSlideLeft.m; sourceTree = "<group>"; };
+		DC4F317C75D44D0B9BC31EA18921503F /* LGBAnimationPop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationPop.m; sourceTree = "<group>"; };
+		E026C67B5749AEC8147CD97FC40E6F73 /* LGBAnimationSlideDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationSlideDown.h; sourceTree = "<group>"; };
+		EC18D57FAAC79D5B0CE02105733D39C5 /* Pods-iOS-pod-LGBAAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-pod-LGBAAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE8565B330E0F6F81BEC7C148B38BC64 /* Pods-iOS-pod-LGBAAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-pod-LGBAAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F997995444F1E6C710133D9B1C1FF998 /* LGBAnimationBounceUp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationBounceUp.m; sourceTree = "<group>"; };
+		FAC9172A0F3EF2C1419223D6CC0AD4BA /* LGBAnimationPopAlphaUp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBAnimationPopAlphaUp.m; sourceTree = "<group>"; };
+		FC1AE2CCB94B6F4E14F785E123C313AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1CD59C4490E6141E210A556829E61B /* LGBAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimation.h; sourceTree = "<group>"; };
+		FEE90AF7E417248D36A4B3193933350F /* LGBAnimationPop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBAnimationPop.h; sourceTree = "<group>"; };
+		FF4DA8B46BEAFBF9F84B0FD0366DF8A8 /* Pods-iOS-pod-LGBAAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-pod-LGBAAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136CBEAC8B6EB79525EF7D8440E82584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFBAB7B11D5B163925ADDAF2CFBB59C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D95104F17AB6DC29091E63FE664BEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D40EC8A90A2C87C4E2E77028E3D92E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB298F570701B8ABBE46DC6E37727FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F84B9DC1FF90B8ED4AE0E846634E22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010FEBE9F1755509F1A023FAB84FB772 /* iOS-pod-LGBAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				25D05196B7EEC848883E2C213887BACC /* iOS-pod-LGBAAnimation */,
+				B4A2AF702FBA5A9E8CDE256E3394A987 /* Support Files */,
+			);
+			name = "iOS-pod-LGBAAnimation";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		25D05196B7EEC848883E2C213887BACC /* iOS-pod-LGBAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FD2CA3D41FA990F3C307064A28FCD92F /* Classes */,
+			);
+			name = "iOS-pod-LGBAAnimation";
+			path = "iOS-pod-LGBAAnimation";
+			sourceTree = "<group>";
+		};
+		382F7649EAFDF5C5EA33C18EC505D79E /* Pods-iOS-pod-LGBAAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1AE2CCB94B6F4E14F785E123C313AF /* Info.plist */,
+				7AD1F368C102A2F60E9D1863990A5D61 /* Pods-iOS-pod-LGBAAnimation_Tests.modulemap */,
+				62E95ABC3B1D1FAB7F527D1C8447E078 /* Pods-iOS-pod-LGBAAnimation_Tests-acknowledgements.markdown */,
+				917F4FDAA62A1DD7B3F0DFECD744DB0B /* Pods-iOS-pod-LGBAAnimation_Tests-acknowledgements.plist */,
+				005129E84BE9049406091F021CBA8771 /* Pods-iOS-pod-LGBAAnimation_Tests-dummy.m */,
+				D5948985AB047895CFCAB31FD4CFCC8E /* Pods-iOS-pod-LGBAAnimation_Tests-frameworks.sh */,
+				690881F0FB6231A1E55576802C806B5F /* Pods-iOS-pod-LGBAAnimation_Tests-resources.sh */,
+				EE8565B330E0F6F81BEC7C148B38BC64 /* Pods-iOS-pod-LGBAAnimation_Tests-umbrella.h */,
+				B8D8AFD1ECDF5C2361169665AB6890AA /* Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig */,
+				87DE83A247B0ADEB109F41F91E1E6C9F /* Pods-iOS-pod-LGBAAnimation_Tests.release.xcconfig */,
+			);
+			name = "Pods-iOS-pod-LGBAAnimation_Tests";
+			path = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Tests";
+			sourceTree = "<group>";
+		};
+		536465B963D186844CFC68B2252DE060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CDA15F09DC39DFE1C4AE09BA8D1F8A /* iOS_pod_LGBAAnimation.framework */,
+				6E309711A9665D996C529B151884107F /* Pods_iOS_pod_LGBAAnimation_Example.framework */,
+				768BD245D9DC4902A5714303C9218F95 /* Pods_iOS_pod_LGBAAnimation_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CE3CBF2BA0CE6FF24192BD5C313BA3EA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				536465B963D186844CFC68B2252DE060 /* Products */,
+				9CC772E462AC8F0F285F0EF271897F63 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92DECD8E8BCE92ED7A0EC9D0F9716687 /* Pods-iOS-pod-LGBAAnimation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				006465B37662AA9CA1E77B4FAB94619F /* Info.plist */,
+				79D82EAA465DF01442B80241AD5A58B3 /* Pods-iOS-pod-LGBAAnimation_Example.modulemap */,
+				EC18D57FAAC79D5B0CE02105733D39C5 /* Pods-iOS-pod-LGBAAnimation_Example-acknowledgements.markdown */,
+				957BF85505A8D1ED5AD7FA0460C849B1 /* Pods-iOS-pod-LGBAAnimation_Example-acknowledgements.plist */,
+				B4831EA9A64D07B8EAC27113714C4B1D /* Pods-iOS-pod-LGBAAnimation_Example-dummy.m */,
+				6F0E6F340BC03FCE24B202CDE785FC46 /* Pods-iOS-pod-LGBAAnimation_Example-frameworks.sh */,
+				6085C2CB4B3D3E0955865A7A3F6EB072 /* Pods-iOS-pod-LGBAAnimation_Example-resources.sh */,
+				FF4DA8B46BEAFBF9F84B0FD0366DF8A8 /* Pods-iOS-pod-LGBAAnimation_Example-umbrella.h */,
+				04797B84B356ECFAE2A00E18CDEF0E05 /* Pods-iOS-pod-LGBAAnimation_Example.debug.xcconfig */,
+				49586E91E273CA0ACB2F71CB6FC1AAA2 /* Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig */,
+			);
+			name = "Pods-iOS-pod-LGBAAnimation_Example";
+			path = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Example";
+			sourceTree = "<group>";
+		};
+		9CC772E462AC8F0F285F0EF271897F63 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92DECD8E8BCE92ED7A0EC9D0F9716687 /* Pods-iOS-pod-LGBAAnimation_Example */,
+				382F7649EAFDF5C5EA33C18EC505D79E /* Pods-iOS-pod-LGBAAnimation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4A2AF702FBA5A9E8CDE256E3394A987 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D54375D47633CBA9CF06B464A4FF8E /* Info.plist */,
+				7F50BCFCE79C1043F2C3F9A50F36E975 /* iOS-pod-LGBAAnimation.modulemap */,
+				D1FCC8C1DD7521360D614F1422B220FF /* iOS-pod-LGBAAnimation.xcconfig */,
+				8944630282B8CBF9C62F75FE0260609A /* iOS-pod-LGBAAnimation-dummy.m */,
+				9BDCE8E4AB491781637979D25B248E70 /* iOS-pod-LGBAAnimation-prefix.pch */,
+				93FA4F4886907083EB012D2BAE14B59E /* iOS-pod-LGBAAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iOS-pod-LGBAAnimation";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3CBF2BA0CE6FF24192BD5C313BA3EA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				010FEBE9F1755509F1A023FAB84FB772 /* iOS-pod-LGBAAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD2CA3D41FA990F3C307064A28FCD92F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC1CD59C4490E6141E210A556829E61B /* LGBAnimation.h */,
+				D12DF0764D3DA7DC67C744CF21FA975E /* LGBAnimationBounceDown.h */,
+				BF6D3087F91185CA0BA0410581289E6A /* LGBAnimationBounceDown.m */,
+				B98F9309C61A78994EBE93634DC7B753 /* LGBAnimationBounceLeft.h */,
+				1372A026A4C1347BBE4E6DD4A224188C /* LGBAnimationBounceLeft.m */,
+				00FDEA2FA932C202C0F5DF2E6057229C /* LGBAnimationBounceRight.h */,
+				548BC6C22CA3951D061EBD66D9B3CB62 /* LGBAnimationBounceRight.m */,
+				663A4061CD6A00C3ADD842BF7C1F315B /* LGBAnimationBounceUp.h */,
+				F997995444F1E6C710133D9B1C1FF998 /* LGBAnimationBounceUp.m */,
+				8216F5E32E2E9CC77A58FBED8EBF8E35 /* LGBAnimationFadeIn.h */,
+				B4D9CF502077528EE7C1C74B8453FF63 /* LGBAnimationFadeIn.m */,
+				D6DFBED6B7D7BA39114F5B98C5AE4DCA /* LGBAnimationFadeInDown.h */,
+				4AACB9779DDE864CB25AAD010DE02E1D /* LGBAnimationFadeInDown.m */,
+				C152B8D47FFABF6EA17FE75D97986CF9 /* LGBAnimationFadeInLeft.h */,
+				2F21803756BACF6377F3C4A0A7CA2DC0 /* LGBAnimationFadeInLeft.m */,
+				8E55C360718DAA31D4FDE2CB2550BF58 /* LGBAnimationFadeInRight.h */,
+				09A94C110A63509A5AF1B2873B89AE81 /* LGBAnimationFadeInRight.m */,
+				9B41B034A010D5CF2EA250FE117FED4A /* LGBAnimationFadeInUp.h */,
+				3D8D121A5D992F5DF85E5B1AA91ADF8D /* LGBAnimationFadeInUp.m */,
+				1821ACD0F75E8C8ABC96D30C90ED2494 /* LGBAnimationFadeOut.h */,
+				BC26B04833E8DB51164FAA8F47790814 /* LGBAnimationFadeOut.m */,
+				85C98D78476695A3269FD3F4AC63F9FD /* LGBAnimationFadeOutLeft.h */,
+				0DF5A121AF70DDB88B6317CAAC7EE086 /* LGBAnimationFadeOutLeft.m */,
+				B4F2BFCF5080932CDC69E2DAED25437A /* LGBAnimationFadeOutRight.h */,
+				9EB33E8FBB74E9C1FD2AAA6BE7028C34 /* LGBAnimationFadeOutRight.m */,
+				5EDD4CD5CD778B7DF6A04FE2E185AEC1 /* LGBAnimationFlash.h */,
+				CCF344646D690C0F3C82B5EBE89276FD /* LGBAnimationFlash.m */,
+				C1D9BEF0972914F2FD4202CBB8A38515 /* LGBAnimationMorph.h */,
+				B40FCF523B8454A477430E67F4681A70 /* LGBAnimationMorph.m */,
+				FEE90AF7E417248D36A4B3193933350F /* LGBAnimationPop.h */,
+				DC4F317C75D44D0B9BC31EA18921503F /* LGBAnimationPop.m */,
+				9154F77EF133B97B3145B86063A750A5 /* LGBAnimationPopAlpha.h */,
+				350C1E75DA18BDB38E063255C696B398 /* LGBAnimationPopAlpha.m */,
+				BAFBAF912BC954B6FD903033CC9CC3A1 /* LGBAnimationPopAlphaOut.h */,
+				183E4FC77804DCBB774C80B00749D1CA /* LGBAnimationPopAlphaOut.m */,
+				65BFD1AE00FCB9B83D849EF24D4509C8 /* LGBAnimationPopAlphaUp.h */,
+				FAC9172A0F3EF2C1419223D6CC0AD4BA /* LGBAnimationPopAlphaUp.m */,
+				69CC685D4D1435FD42FD36050159AB5E /* LGBAnimationShake.h */,
+				9278BBDA18C5F937ACBEE3CE062A410A /* LGBAnimationShake.m */,
+				E026C67B5749AEC8147CD97FC40E6F73 /* LGBAnimationSlideDown.h */,
+				27BEB0588B406ADC51A95CF5E0134E2E /* LGBAnimationSlideDown.m */,
+				1CE05218924DD62506630992DC15E041 /* LGBAnimationSlideDownReverse.h */,
+				259B9312B01B4354CC39FDB4A7C5AA8B /* LGBAnimationSlideDownReverse.m */,
+				D436B01B92006820447D445865356D0B /* LGBAnimationSlideLeft.h */,
+				D92C47CD067C7CDF4E64A45ABAB4C060 /* LGBAnimationSlideLeft.m */,
+				707886AB0622AA12E396A1B8D95FFE38 /* LGBAnimationSlideRight.h */,
+				3B8083002DD4E63EC2F2079B0C34259E /* LGBAnimationSlideRight.m */,
+				40172849C6BF748C64E1B251FE50F198 /* LGBAnimationSlideUp.h */,
+				B13B4CCCA76826F698DE92BA7C230D11 /* LGBAnimationSlideUp.m */,
+				79D3C9A45D90296BCA0F2A2601BEED3F /* LGBAnimationZoomIn.h */,
+				2C3C8606968808C4077876059591CB88 /* LGBAnimationZoomIn.m */,
+				8B4F4AC42E4134EAC7BE3EAB66333869 /* LGBAnimationZoomOut.h */,
+				66CAF7DF464351D8F59D2ABF257F5671 /* LGBAnimationZoomOut.m */,
+				D07FB15B200273FEAC8706F1FAA41044 /* UIView+LGBAnimation.h */,
+				CC8289B390DF6E7EEC2292B64AC94787 /* UIView+LGBAnimation.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1753A1F1DA49519856848F9B2D0CEB33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368E45B5DE5B834EB35E35F8F97ECD62 /* Pods-iOS-pod-LGBAAnimation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A7FFB3706FC2A3DD885E6F58E4F7F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DFCAC5A121EA092CAEC9FEA9472E89 /* iOS-pod-LGBAAnimation-umbrella.h in Headers */,
+				C324340B3BE87157FE04255F1BF5377A /* LGBAnimation.h in Headers */,
+				F64DDD87A6C60370E2C288102D303883 /* LGBAnimationBounceDown.h in Headers */,
+				B7050BA02395F7BE0BCB1D3B680E0498 /* LGBAnimationBounceLeft.h in Headers */,
+				7709AFBAEAE4C937C60DA50AA7746C45 /* LGBAnimationBounceRight.h in Headers */,
+				58C13959D6A80C383BFDA6AE00CB0895 /* LGBAnimationBounceUp.h in Headers */,
+				6DC4D1DD986539AFD86F6349FF31C2F8 /* LGBAnimationFadeIn.h in Headers */,
+				DC04DA56AA4D60A13D41723E8F7D12F8 /* LGBAnimationFadeInDown.h in Headers */,
+				B77A879941B06B4AF6C766B49D6EBA4E /* LGBAnimationFadeInLeft.h in Headers */,
+				A41D0AB94406C5CAFD7D9FDFF9FED9F1 /* LGBAnimationFadeInRight.h in Headers */,
+				05FA2FA05B7B798C6ED70932B4D856E9 /* LGBAnimationFadeInUp.h in Headers */,
+				F0B180F15AB7D5ADF4A14450F99A2040 /* LGBAnimationFadeOut.h in Headers */,
+				F97C38E41C47F1FF62F50A0A0F87B366 /* LGBAnimationFadeOutLeft.h in Headers */,
+				C499507F958A239DB5431F1485332A78 /* LGBAnimationFadeOutRight.h in Headers */,
+				EFFA5130B374DE2237023C96C0781136 /* LGBAnimationFlash.h in Headers */,
+				B609E73F3EF24C0263BCBC5BA8BF218E /* LGBAnimationMorph.h in Headers */,
+				62CF626E456B35B17A36548018232CDB /* LGBAnimationPop.h in Headers */,
+				D31CE46B0F613AD669A86927F50AF538 /* LGBAnimationPopAlpha.h in Headers */,
+				BCC22DC207E8858644297C1D4010AB47 /* LGBAnimationPopAlphaOut.h in Headers */,
+				7829D226645D369216688F9552D550D8 /* LGBAnimationPopAlphaUp.h in Headers */,
+				BC5D9517538059E52A8972E82F9B243E /* LGBAnimationShake.h in Headers */,
+				28EDB5CBDD05856E9CAA71271550F2CF /* LGBAnimationSlideDown.h in Headers */,
+				C3CCE4D021093D78982480D4A19E563A /* LGBAnimationSlideDownReverse.h in Headers */,
+				9C1283D7DEF07B2AAAC47559CDE84912 /* LGBAnimationSlideLeft.h in Headers */,
+				931A510C77FFB4866D820CE120333EC5 /* LGBAnimationSlideRight.h in Headers */,
+				C49C6B8609D133B5BF9C8C78FB4FA820 /* LGBAnimationSlideUp.h in Headers */,
+				07CA73E35BD30490D53BC1A5B1F0DB87 /* LGBAnimationZoomIn.h in Headers */,
+				F2CA65710A2DA85C7A84FA73F9079F61 /* LGBAnimationZoomOut.h in Headers */,
+				862B39A19B38701EDC7ED7DB138F1598 /* UIView+LGBAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC058BF02AA8DC61214D285665089212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97203BF2F38B4ABA3B5384F4D95AE7D /* Pods-iOS-pod-LGBAAnimation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06AA677A29F8080CE37E664D00CFF369 /* iOS-pod-LGBAAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC207C1C6D6F94935382920DE56290B /* Build configuration list for PBXNativeTarget "iOS-pod-LGBAAnimation" */;
+			buildPhases = (
+				102CE2285030F97384D1D37560B0BE2C /* Sources */,
+				BB298F570701B8ABBE46DC6E37727FCC /* Frameworks */,
+				35A7FFB3706FC2A3DD885E6F58E4F7F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-pod-LGBAAnimation";
+			productName = "iOS-pod-LGBAAnimation";
+			productReference = 57CDA15F09DC39DFE1C4AE09BA8D1F8A /* iOS_pod_LGBAAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1C8583AC2EE8B3E6F440BB607604223 /* Pods-iOS-pod-LGBAAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53D4E3E4601F0D4ED82648A2B00A5F0 /* Build configuration list for PBXNativeTarget "Pods-iOS-pod-LGBAAnimation_Example" */;
+			buildPhases = (
+				4C25141FAA3D617BD9C387500E1E0B1D /* Sources */,
+				136CBEAC8B6EB79525EF7D8440E82584 /* Frameworks */,
+				1753A1F1DA49519856848F9B2D0CEB33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DE3D26CA2AF3500D3F30ACA2C2E93E /* PBXTargetDependency */,
+			);
+			name = "Pods-iOS-pod-LGBAAnimation_Example";
+			productName = "Pods-iOS-pod-LGBAAnimation_Example";
+			productReference = 6E309711A9665D996C529B151884107F /* Pods_iOS_pod_LGBAAnimation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6DB157147B5AB2F98FB9B42360B97A5 /* Pods-iOS-pod-LGBAAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24C0E296A3F94812E583744B1DA4EA4 /* Build configuration list for PBXNativeTarget "Pods-iOS-pod-LGBAAnimation_Tests" */;
+			buildPhases = (
+				E2E4531D6B38F97122342712D884D1C8 /* Sources */,
+				1D95104F17AB6DC29091E63FE664BEC4 /* Frameworks */,
+				AC058BF02AA8DC61214D285665089212 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iOS-pod-LGBAAnimation_Tests";
+			productName = "Pods-iOS-pod-LGBAAnimation_Tests";
+			productReference = 768BD245D9DC4902A5714303C9218F95 /* Pods_iOS_pod_LGBAAnimation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 536465B963D186844CFC68B2252DE060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06AA677A29F8080CE37E664D00CFF369 /* iOS-pod-LGBAAnimation */,
+				D1C8583AC2EE8B3E6F440BB607604223 /* Pods-iOS-pod-LGBAAnimation_Example */,
+				F6DB157147B5AB2F98FB9B42360B97A5 /* Pods-iOS-pod-LGBAAnimation_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		102CE2285030F97384D1D37560B0BE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A310048B8E0005FF731343B0B8C3DB /* iOS-pod-LGBAAnimation-dummy.m in Sources */,
+				22C0F8CB9FE5B7D17F244D334FED6C6C /* LGBAnimationBounceDown.m in Sources */,
+				440024A14C6F12CA429FB21F58B350EC /* LGBAnimationBounceLeft.m in Sources */,
+				54AA9FBFABE2C714B8C8698DB1A9A315 /* LGBAnimationBounceRight.m in Sources */,
+				E12C526A13460154AC3BEBAA2F3B0090 /* LGBAnimationBounceUp.m in Sources */,
+				7D12323B5425EBFBDE07DC8821F53C0B /* LGBAnimationFadeIn.m in Sources */,
+				B9D04DAE05CB18F9C289BAA157C62237 /* LGBAnimationFadeInDown.m in Sources */,
+				C089F8403ADE28E286687CED75D890C6 /* LGBAnimationFadeInLeft.m in Sources */,
+				97B95DF4267D06985DD67D528629CB7F /* LGBAnimationFadeInRight.m in Sources */,
+				9A3B3E210A810AEEE7807CF602EDDBE1 /* LGBAnimationFadeInUp.m in Sources */,
+				932ADCCF603E186741EF0537FF9A54D8 /* LGBAnimationFadeOut.m in Sources */,
+				38B5DBA073AD92B27A00CB00E4AD189A /* LGBAnimationFadeOutLeft.m in Sources */,
+				39E354613F59C117F9E7C759285CFB14 /* LGBAnimationFadeOutRight.m in Sources */,
+				ADA64B5E67B431309A11C712CDD6791A /* LGBAnimationFlash.m in Sources */,
+				A2CCD2C085D22EE127E210EE5D3FCF18 /* LGBAnimationMorph.m in Sources */,
+				BFE88EC04066785C66D22801BDFA977A /* LGBAnimationPop.m in Sources */,
+				B709A8DCD46934C0E3AB17CB0AD576B8 /* LGBAnimationPopAlpha.m in Sources */,
+				077CB24068945597600484091492CE32 /* LGBAnimationPopAlphaOut.m in Sources */,
+				A7EB47AA7C3784DE14AB0E4D8E411684 /* LGBAnimationPopAlphaUp.m in Sources */,
+				6370F5A8FEB8D19A9D655035F02E1EA0 /* LGBAnimationShake.m in Sources */,
+				7E75763778AC2FE1BB28EAC15631B9A0 /* LGBAnimationSlideDown.m in Sources */,
+				0B7D3F3F043F2FB15B0284030B7661D6 /* LGBAnimationSlideDownReverse.m in Sources */,
+				A046A4E7728155D067CCE51C6BF2C451 /* LGBAnimationSlideLeft.m in Sources */,
+				DD8070455EBDB6CAC91AC50CF808331A /* LGBAnimationSlideRight.m in Sources */,
+				71A987648181370B330C20C3308D6C9E /* LGBAnimationSlideUp.m in Sources */,
+				7C862EDF4836B2B22B570AC85F3BF751 /* LGBAnimationZoomIn.m in Sources */,
+				A0CD3FCCF8F93159439F26B79AACDFB0 /* LGBAnimationZoomOut.m in Sources */,
+				598462B5A6266346060A63DD593A4CDF /* UIView+LGBAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C25141FAA3D617BD9C387500E1E0B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F8A26BF0D508B4BE72DE5C676BBB40 /* Pods-iOS-pod-LGBAAnimation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E4531D6B38F97122342712D884D1C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421DF503AC9741247CD5974677DAB984 /* Pods-iOS-pod-LGBAAnimation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03DE3D26CA2AF3500D3F30ACA2C2E93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS-pod-LGBAAnimation";
+			target = 06AA677A29F8080CE37E664D00CFF369 /* iOS-pod-LGBAAnimation */;
+			targetProxy = ECAC255FC386FF4F532B3CFC87FE3E42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B2BC4626B0252FB670E1D76D0555887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04797B84B356ECFAE2A00E18CDEF0E05 /* Pods-iOS-pod-LGBAAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Example/Pods-iOS-pod-LGBAAnimation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS_pod_LGBAAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1DCEB7563DD2D11C3D2938B855E429B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49586E91E273CA0ACB2F71CB6FC1AAA2 /* Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Example/Pods-iOS-pod-LGBAAnimation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS_pod_LGBAAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C09D463F0692EC4AA25CC99128E06E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D8AFD1ECDF5C2361169665AB6890AA /* Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Tests/Pods-iOS-pod-LGBAAnimation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS_pod_LGBAAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526866A35C138C810DC1AF58005CE7FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FCC8C1DD7521360D614F1422B220FF /* iOS-pod-LGBAAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-pod-LGBAAnimation/iOS-pod-LGBAAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOS-pod-LGBAAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOS-pod-LGBAAnimation/iOS-pod-LGBAAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iOS_pod_LGBAAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C862185A6912C417428688309A5184D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DE83A247B0ADEB109F41F91E1E6C9F /* Pods-iOS-pod-LGBAAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-pod-LGBAAnimation_Tests/Pods-iOS-pod-LGBAAnimation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS_pod_LGBAAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F913E457396AF1021270BF85A85B9763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FCC8C1DD7521360D614F1422B220FF /* iOS-pod-LGBAAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-pod-LGBAAnimation/iOS-pod-LGBAAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOS-pod-LGBAAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOS-pod-LGBAAnimation/iOS-pod-LGBAAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iOS_pod_LGBAAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC207C1C6D6F94935382920DE56290B /* Build configuration list for PBXNativeTarget "iOS-pod-LGBAAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526866A35C138C810DC1AF58005CE7FF /* Debug */,
+				F913E457396AF1021270BF85A85B9763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24C0E296A3F94812E583744B1DA4EA4 /* Build configuration list for PBXNativeTarget "Pods-iOS-pod-LGBAAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C09D463F0692EC4AA25CC99128E06E1 /* Debug */,
+				9C862185A6912C417428688309A5184D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53D4E3E4601F0D4ED82648A2B00A5F0 /* Build configuration list for PBXNativeTarget "Pods-iOS-pod-LGBAAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2BC4626B0252FB670E1D76D0555887 /* Debug */,
+				1DCEB7563DD2D11C3D2938B855E429B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

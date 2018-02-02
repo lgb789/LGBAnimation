@@ -24,6 +24,9 @@
 		6B45A6C44D0CE7BB74862316 /* Pods_iOS_pod_LGBAAnimation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9508D2C55A70E832B704182 /* Pods_iOS_pod_LGBAAnimation_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B8C8A49820245CE100420A37 /* AnimationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C8A49320245CE000420A37 /* AnimationModel.m */; };
+		B8C8A49920245CE100420A37 /* AnimationTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C8A49420245CE100420A37 /* AnimationTableView.m */; };
+		B8C8A49A20245CE100420A37 /* AnimationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C8A49720245CE100420A37 /* AnimationTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,15 +61,21 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72CDD6E5197F0C22C8CB817E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		72CDD6E5197F0C22C8CB817E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		72F8EC8CD9434D91D7B8B483 /* Pods-iOS-pod-LGBAAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-pod-LGBAAnimation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-pod-LGBAAnimation_Example/Pods-iOS-pod-LGBAAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7ADF631283E3091E7DB712B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7ADF631283E3091E7DB712B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		856E91F0BBA5ACE0D5E157B4 /* Pods-iOS-pod-LGBAAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-pod-LGBAAnimation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-pod-LGBAAnimation_Tests/Pods-iOS-pod-LGBAAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9508D2C55A70E832B704182 /* Pods_iOS_pod_LGBAAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_pod_LGBAAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C8A49220245CE000420A37 /* AnimationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTableViewCell.h; sourceTree = "<group>"; };
+		B8C8A49320245CE000420A37 /* AnimationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationModel.m; sourceTree = "<group>"; };
+		B8C8A49420245CE100420A37 /* AnimationTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableView.m; sourceTree = "<group>"; };
+		B8C8A49520245CE100420A37 /* AnimationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationModel.h; sourceTree = "<group>"; };
+		B8C8A49620245CE100420A37 /* AnimationTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTableView.h; sourceTree = "<group>"; };
+		B8C8A49720245CE100420A37 /* AnimationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableViewCell.m; sourceTree = "<group>"; };
 		C18F3C92A1D934F3572B9E09 /* Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-pod-LGBAAnimation_Tests/Pods-iOS-pod-LGBAAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D570A3C2A4FC77A937E53A38 /* Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-pod-LGBAAnimation_Example/Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E88256C70202F08A5A15B99F /* iOS-pod-LGBAAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "iOS-pod-LGBAAnimation.podspec"; path = "../iOS-pod-LGBAAnimation.podspec"; sourceTree = "<group>"; };
+		E88256C70202F08A5A15B99F /* iOS-pod-LGBAAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "iOS-pod-LGBAAnimation.podspec"; path = "../iOS-pod-LGBAAnimation.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +146,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LGBViewController.h */,
 				6003F5A6195388D20070C39A /* LGBViewController.m */,
+				B8C8A49520245CE100420A37 /* AnimationModel.h */,
+				B8C8A49320245CE000420A37 /* AnimationModel.m */,
+				B8C8A49620245CE100420A37 /* AnimationTableView.h */,
+				B8C8A49420245CE100420A37 /* AnimationTableView.m */,
+				B8C8A49220245CE000420A37 /* AnimationTableViewCell.h */,
+				B8C8A49720245CE100420A37 /* AnimationTableViewCell.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +265,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lgb789;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7CKU2V5F6W;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -394,8 +412,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C8A49920245CE100420A37 /* AnimationTableView.m in Sources */,
+				B8C8A49820245CE100420A37 /* AnimationModel.m in Sources */,
 				6003F59E195388D20070C39A /* LGBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LGBViewController.m in Sources */,
+				B8C8A49A20245CE100420A37 /* AnimationTableViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,12 +545,15 @@
 			baseConfigurationReference = 72F8EC8CD9434D91D7B8B483 /* Pods-iOS-pod-LGBAAnimation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CKU2V5F6W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS-pod-LGBAAnimation/iOS-pod-LGBAAnimation-Prefix.pch";
 				INFOPLIST_FILE = "iOS-pod-LGBAAnimation/iOS-pod-LGBAAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,12 +563,15 @@
 			baseConfigurationReference = D570A3C2A4FC77A937E53A38 /* Pods-iOS-pod-LGBAAnimation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CKU2V5F6W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS-pod-LGBAAnimation/iOS-pod-LGBAAnimation-Prefix.pch";
 				INFOPLIST_FILE = "iOS-pod-LGBAAnimation/iOS-pod-LGBAAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
