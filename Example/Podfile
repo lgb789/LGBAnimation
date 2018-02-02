@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOS-pod-LGBAAnimation_Example' do
+  pod 'iOS-pod-LGBAAnimation', :path => '../'
+
+  target 'iOS-pod-LGBAAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
